@@ -6,6 +6,32 @@ body{
 .flex-container{
     display: flex;
 }
+.topnav {
+    background-color: black;
+    overflow: hidden;
+  }
+  .logo{
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      font-family:'Lobster', cursive; ;
+      padding: 0 50px;
+      line-height: 50px;
+      color: rgb(235, 147, 162);
+  }
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 5%;
+  }
+  .topnav a.top-bar {
+    background-image: linear-gradient(rgb(240, 77, 49), rgb(238, 133, 150));;
+  }
 .top-section{
     color: rgb(95, 93, 93);
     margin-top: 5%;
@@ -46,6 +72,9 @@ h3{
     font-weight: 700;
     display: inline-block;
     margin-top: 5%;
+}
+a:hover{
+    background-image: linear-gradient(red, rgb(238, 154, 168));
 }
 .mid-section{
     background-image: url(images/Frame\ 58.jpg);
