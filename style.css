@@ -21,6 +21,7 @@ h3{
     font-size: 17px;
     font-weight: 900;
 }
+
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -45,12 +46,13 @@ h3{
     font-weight: 700;
 }
 .mid-section{
-    background-image: url(images/Frame\ 59.jpg);
+    background-image: url(images/Frame\ 58.jpg);
     background-repeat: no-repeat;
     color: rgb(95, 93, 93);
     margin-bottom: 5%;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-right: 5%;
 }
 .offer{
     font-weight: 700;
