@@ -6,28 +6,7 @@ body{
 .flex-container{
     display: flex;
 }
-.menu-bar{
-    display: flex;
-    background-color: black;
-    color: orange;
-}
-.link-button-top{
-    text-decoration: none;
-    color: white;
-    background-image: linear-gradient(pink, tomato);
-    padding: 5px 20px;
-    border-radius: 7px;
-    font-weight: 700;
-}
-ul{
-    text-align: right;
-}
-li{
-    display: inline-block;
-    padding-right: 10px;
-}
 .top-section{
-    margin-bottom: 5%;
     color: rgb(95, 93, 93);
     margin-top: 5%;
 }
@@ -44,12 +23,13 @@ h3{
 }
 .half-width{
     width: 50%;
-    margin-bottom:10%;
     padding-left: 5%;
     padding-right: 5%;
+    margin-bottom:10%;
+    
 }
 .half-width img{
-    width: 70%;
+    width: 90%;
     
 }
 .tomato-color{
@@ -58,13 +38,10 @@ h3{
 .link-button{
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(pink, tomato);
+    background-image: linear-gradient(rgb(240, 77, 49), rgb(238, 133, 150));
     padding: 10px 40px;
     border-radius: 20px;
     font-weight: 700;
-}
-a:hover{
-    background-image: linear-gradient(rgb(243, 55, 55), rgb(241, 139, 156));
 }
 .mid-section{
     background-image: url(images/Frame\ 59.jpg);
@@ -72,7 +49,7 @@ a:hover{
     color: rgb(95, 93, 93);
     margin-bottom: 5%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
 }
 .offer{
     font-weight: 700;
